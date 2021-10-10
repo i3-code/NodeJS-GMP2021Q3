@@ -8,7 +8,8 @@
     "start:dev": "ts-node ./src/server.ts",
     "start:prod": "npm run build && node ./dist/src/server.js",
     "build": "npx tsc",
-    "lint": "eslint '**/*.{js,ts}' --quiet --fix"
+    "lint": "eslint '**/*.{js,ts}' --quiet --fix",
+    "task1": "nodemon --exec ts-node ./src/task1.ts"
   },
   "keywords": [],
   "author": "",
